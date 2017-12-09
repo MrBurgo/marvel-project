@@ -1,0 +1,128 @@
+/* ---------- Begin Header ---------- */
+
+#title{
+  text-transform:uppercase;
+  font-family: 'Archivo Black', sans-serif;
+  color: white;
+  font-size:3em;
+  background-color:red;
+  text-align:center;
+  max-width:55%;
+  margin:auto;
+  margin-bottom:1%;
+
+}
+
+#header{
+  text-align:center;
+}
+
+#criteria{
+  width:25%;
+  height: 20px;
+}
+
+#search-button{
+  height:30px;
+  width:80px;
+}
+
+#clear-button{
+  height:30px;
+  width:80px;
+}
+
+/* ---------- End Header ---------- */
+
+/* ---------- Begin Body ---------- */
+
+#results{
+  font-family: 'Archivo Black', sans-serif;
+  text-transform:uppercase;
+  font-size:2em;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+}
+
+.results{
+    font-family: 'Archivo Black', sans-serif;
+    text-transform:uppercase;
+    font-size:2em;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    margin:10px;
+
+}
+
+.body{
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size:1.5em;
+  color:white;
+  margin-left:3%;
+  margin-right:3%;
+}
+
+#description{
+  color:white;
+
+}
+
+body{
+  background-color:#000000;
+}
+
+
+#image-small{
+  display:block;
+  width:300px;
+  margin:auto;
+  border-width:2px;
+  border-radius:2px;
+  border-color:white;
+  border-style:solid;
+}
+
+#image{
+}
+
+#body{
+  margin:1%;
+}
+
+
+#all-body{
+  margin:auto;
+  width:100%;
+}
+
+#comics{
+  text-align:center;
+}
+
+.box{
+
+    width:435px;
+    border-width:2px;
+    border-color:white;
+    border-style:solid;
+    display:inline-block;
+    padding:0%;
+    vertical-align:top;
+    min-height:700px;
+
+}
+
+.link{
+  text-decoration:none;
+}
+
+
+/* ---------- End Body ---------- */
+
+@media screen and (max-width: 480px){
+  #criteria{
+    width:50%;
+  }
+}
